@@ -1,0 +1,44 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#circleContainer ul {
+    margin: 0;
+    padding: 0;
+}
+
+#circleContainer li:first-child {
+    margin: 10px 5px 10px 0;
+}
+#circleContainer li:last-child {
+    margin: 10px 0 10px 5px;
+}
+
+#circleContainer li{
+    color: #382058;
+    float: left;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    list-style: none;
+    border: rebeccapurple solid 1px;
+    background-color: mediumpurple;
+    font-size: 12px;
+}
+
+#spaceContainer {
+    float: left;
+    height: 100vh;
+}
+
+#spaceContainer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#mainContent {
+    border: 1px solid;
+}
+
+.container {
+    clear: both;
+}
