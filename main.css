@@ -2,27 +2,27 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-#circleContainer ul {
-    margin: 0;
-    padding: 0;
-}
-
-#circleContainer li:first-child {
+#circleContainer div:first-child {
     margin: 10px 5px 10px 0;
 }
-#circleContainer li:last-child {
+#circleContainer div:last-child {
     margin: 10px 0 10px 5px;
 }
 
-#circleContainer li{
+#circleContainer {
+    display: flex;
+    align-items: start;
+}
+
+#circleContainer div {
     color: #382058;
-    float: left;
+    width: 150px;
     padding: 10px 10px;
     margin: 10px 5px;
-    list-style: none;
     border: rebeccapurple solid 1px;
     background-color: mediumpurple;
-    font-size: 12px;
+    font-size: 13px;
+    text-align: center;
 }
 
 #spaceContainer {
@@ -35,6 +35,7 @@
     padding: 0;
     list-style: none;
 }
+
 #mainContent {
     border: 1px solid;
 }
