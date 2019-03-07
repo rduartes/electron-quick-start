@@ -10,8 +10,9 @@
 }
 
 #circleContainer {
+    border: aqua 1px solid;
     display: flex;
-    align-items: start;
+    justify-content: flex-end;
 }
 
 #circleContainer div {
@@ -41,5 +42,5 @@
 }
 
 .container {
-    clear: both;
+    display: flex;
 }
